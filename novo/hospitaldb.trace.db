@@ -1,0 +1,6 @@
+2026-03-09 09:55:11.273300-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOSPITAL" not found (this database is empty); SQL statement:
+select h1_0.id,h1_0.cnpj,h1_0.nome,h1_0.telefone from hospital h1_0 [42104-240]
+2026-03-09 09:55:14.324274-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "HOSPITAL" not found (this database is empty); SQL statement:
+insert into hospital (cnpj,nome,telefone,id) values (?,?,?,default) [42104-240]
