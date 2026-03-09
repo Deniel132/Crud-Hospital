@@ -1,6 +1,5 @@
 package dev.Daniel.Hospital.service;
 
-import dev.Daniel.Hospital.HospitalApplication;
 import dev.Daniel.Hospital.model.Hospital;
 import dev.Daniel.Hospital.repository.HospitalRepository;
 import jakarta.persistence.EntityNotFoundException;
